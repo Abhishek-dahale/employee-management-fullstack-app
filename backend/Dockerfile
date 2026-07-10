@@ -1,5 +1,5 @@
 # Use Maven to build the application
-FROM maven:3.8.6-eclipse-temurin-11
+FROM maven:3.8.6-eclipse-temurin-11 AS builder
 
 # Set the working directory
 WORKDIR /app
